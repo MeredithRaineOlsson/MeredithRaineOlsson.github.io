@@ -217,22 +217,22 @@ export const adventures = [
 export const contact = [
   {
     label: "Email",
-    link: "mailto:vinaysomawat40@gmail.com",
+    link: "mailto:meredith@olssons.us",
     icon: "fa fa-envelope",
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/vinaysomawat/",
+    link: "https://www.linkedin.com/in/meredith-olsson-8081841bb/",
     icon: "fa-brands fa-linkedin",
   },
   {
     label: "GitHub Profile",
-    link: "https://github.com/vinaysomawat",
+    link: "https://github.com/MeredithRaineOlsson",
     icon: "fa-brands fa-github",
   },
   {
     label: "Portfolio Source",
-    link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+    link: "https://github.com/MeredithRaineOlsson/MeredithRaineOlsson.github.io",
     icon: "fa-solid fa-code-branch",
   },
   {
@@ -242,7 +242,7 @@ export const contact = [
   },
   {
     label: "Buy me a coffee",
-    link: "https://www.buymeacoffee.com/r194dME8y",
+    link: "https://buymeacoffee.com/meredithraineolsson",
     icon: "fa fa-coffee",
   },
 ];
