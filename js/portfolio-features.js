@@ -14,7 +14,6 @@
 
   const commands = [
     { label: "About", target: "about", icon: "fa-user", meta: "Section" },
-    { label: "Skills", target: "skills", icon: "fa-code", meta: "Section" },
     {
       label: "Work Experience",
       target: "experience",
@@ -40,6 +39,7 @@
       icon: "fa-mountain-sun",
       meta: "Section",
     },
+    { label: "Skills", target: "skills", icon: "fa-code", meta: "Section" },
     { label: "Contact", target: "contact", icon: "fa-envelope", meta: "Section" },
     {
       label: "Open GitHub",

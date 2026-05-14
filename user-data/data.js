@@ -1,106 +1,123 @@
 export const bio = [
-  "Senior Frontend Engineer with 5+ years building scalable, high-performance apps using Angular, React, and Nx monorepos.",
-  "Expert in TypeScript, RxJS, and NgRx, focused on architecture, state management, and performance optimization.",
-  "Experienced in microfrontends, design systems, secure API integrations, and CI/CD with strong testing practices.",
-  "Passionate about solving real-world problems and exploring challenges—both in code and through mountain trekking.",
+  "Meredith type shit.",
+    "Expert poet.",
+    "Experienced in teaching and things.",
+    "Certified hottie.",
 ];
 
 export const skills = [
-  "TypeScript",
-  "Angular",
-  "React",
-  "RxJS",
-  "NgRx",
-  "Microfrontends",
-  "ModuleFederation",
-  "Nx",
-  "Scalability",
-  "Performance",
-  "Optimization",
-  "Architecture",
-  "Modularization",
-  "Observability",
-  "WebVitals",
-  "Storybook",
-  "Webpack",
-  "Signals",
-  "WebSockets",
-  "Authentication",
-  "Authorization",
-  "UNITTest",
-  "Playwright",
-  "Versioning",
-  "Git",
-  "OpenAI",
+  "Administration",
+  "Communication",
+  "Social Media"
 ];
 
 export const experience = [
+  
   {
-    title: "SS&C Technologies",
-    duration: "August 2025 - Present",
-    subtitle: "Senior Software Engineer",
-    details: [
-      "Architect and develop scalable Angular applications in an Nx monorepo using TypeScript, RxJS, and NgRx, with modular libraries, lazy loading, and optimized change detection (OnPush).",
-      "Implement secure API integrations (JWT/Keycloak), route guards/interceptors, and maintain quality via unit/e2e testing (Jasmine, Playwright) and CI/CD pipelines.",
-    ],
-    tags: ["Nx", "Micro-frontend", "OIDC", "JEST", "PLAYWRIGHT"],
-    icon: "money",
-  },
-  {
-    title: "Shiprocket Limited",
-    duration: "September 2023 - August 2025",
-    subtitle: "Software Engineer",
-    details: [
-      "Led the migration of 30+ high-traffic modules (serving 300K+ active sellers) from AngularJS to Angular 19, conducting in-depth analysis of legacy code, identifying and addressing functional gaps in updated designs, executing testing across multiple user roles, and delivering a seamless rollout in a live production environment.",
-      "Engineered a ChatGPT-style courier rule engine using OpenAPI schema, automating 20+ ops tasks; built global search with deep linking and keyboard shortcuts, boosting efficiency by 30%",
-      "Contributed to the Shiprocket UI Design System using StencilJS + Storybook with atomic design, cutting UI bugs by 35% and halving feature delivery time across teams.",
-    ],
-    tags: ["TypeScript", "Storybook", "GitHub Copilot"],
-    icon: "truck",
-  },
-  {
-    title: "Biofourmis India Pvt. Ltd.",
-    duration: "April 2022 - July 2023",
-    subtitle: "Software Engineer",
-    details: [
-      "Spearheaded micro-frontend adoption with Module Federation, eliminating shared deployment blockers and enabling team- wise independent releases.",
-      "Architected multi-region deployment support with dynamic API routing and failover, improving global latency.",
-      "Integrated real-time collaboration tools (Twilio Video, Countly, NGXS WebSockets) to enable 24/7 patient monitoring and synchronous team interactions.",
-    ],
-    tags: ["TypeScript", "RxJS", "NGXS", "WebSockets", "Module Federation"],
-    icon: "heartbeat",
-  },
-  {
-    title: "Novopay Solutions Pvt. Ltd.",
-    duration: "July 2020 - April 2022",
-    subtitle: "Software Engineer",
-    details: [
-      "Built Aadhaar-enabled banking modules (eKYC, withdrawal, balance inquiry) for 100K+ retail agents, ensuring secure financial access in rural areas.",
-      "Designed QR-code wallet flow, reducing transaction failures and increasing user adoption across merchants.",
-      "Integrated Clevertap, Freshdesk, and chatbot support, cutting average support resolution time by 40%.",
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap"],
-    icon: "qrcode",
-  },
+      "title": "Arts Administration Intern",
+      "duration": "Jan 2026 - Present",
+      "subtitle": "Boston University College of Arts & Sciences",
+      "details": [
+        "Worked with Annaka",
+        "Bolstered BU Creative Writing Program's outreach and social media efforts"
+      ],
+      "tags": [
+        "Git"
+      ],
+      "icon": "briefcase"
+    },
+    {
+      "title": "Editorial Intern",
+      "duration": "September 2025 - Present",
+      "subtitle": "AGNI Literary Magazine",
+      "details": [
+        "Edited and whatnot",
+        "Got my name in BOOOOKS!"
+      ],
+      "tags": [
+        "Editing",
+        "Fiction",
+        "Poetry",
+        "Publishing"
+      ],
+      "icon": "pen-fancy"
+    },
+    {
+      "title": "Practice Assistant II",
+      "duration": "October 2022 - August 2025",
+      "subtitle": "Brigham and Women's Hospital",
+      "details": [
+        "Wrangled Dr. Spicy",
+        "Saved Lived",
+        "Got Money"
+      ],
+      "tags": [
+        "IDK"
+      ],
+      "icon": "heartbeat"
+    },
+    {
+      "title": "Volunteer GM",
+      "duration": "Aug 2024 - Jul 2025",
+      "subtitle": "Tavern of Tales LTD",
+      "details": [
+        "Wrote the best one-shots in the history of maybe ever",
+        "had fun :)"
+      ],
+      "tags": [
+        "Creativity",
+        "TTRPG",
+        "Writing"
+      ],
+      "icon": "dice"
+    },
+    {
+      "title": "That other slush reading internship you had at Berry",
+      "duration": "Aug 2019 - May 2023",
+      "subtitle": "I forgot her name but that lady's publishing group",
+      "details": [
+        "oopsies i forgot stuff"
+      ],
+      "tags": [
+        "Bad Memory",
+        "Sorry"
+      ],
+      "icon": "pencil"
+    },
+    {
+      "title": "Library Student Director and Access Services Coordinator",
+      "duration": "Aug 2019 - May 2023",
+      "subtitle": "Berry College Memorial Library",
+      "details": [
+        "Master of the books",
+        "Keeper of knowledge",
+        "Server of Looks"
+      ],
+      "tags": [
+        "Library",
+        "Dopeness"
+      ],
+      "icon": "book"
+    },
 ];
 
 export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
-    details: [],
-    tags: [],
-    icon: "graduation-cap",
-  },
-  {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
-    details: [],
-    tags: [],
-    icon: "book",
-  },
+      "title": "Master of Fine Arts - MFA, Creative Writing",
+      "duration": "September 2025 - June 2026",
+      "subtitle": "Boston University",
+      "details": [],
+      "tags": [],
+      "icon": "graduation-cap"
+    },
+    {
+      "title": "Bachelor of Arts - BA, Creative Writing",
+      "duration": "2019 - 2023",
+      "subtitle": "Berry College",
+      "details": [],
+      "tags": [],
+      "icon": "pen"
+    },
 ];
 
 export const adventures = [

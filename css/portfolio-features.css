@@ -1,16 +1,16 @@
 :root {
-  --feature-bg: #ffffff;
+  --feature-bg: #a5f7d1;
   --feature-surface: #ffffff;
-  --feature-text: #161616;
+  --feature-text: #00222b;
   --feature-muted: #666666;
   --feature-border: #eeeeee;
   --feature-shadow: 0 14px 36px rgba(0, 0, 0, 0.16);
-  --feature-gold: #f9bf3f;
-  --feature-gold-light: #ffdd99;
+  --feature-gold: #ffffff;
+  --feature-gold-light: #ffffff;
 }
 
 [data-theme="dark"] {
-  --feature-bg: #141414;
+  --feature-bg: #00222b;
   --feature-surface: #1e1e1e;
   --feature-text: #f7f1df;
   --feature-muted: #b7b1a2;
@@ -221,4 +221,22 @@
     width: 40px;
     height: 40px;
   }
+}
+body {
+  background: var(--feature-bg);
+  color: var(--feature-text);
+}
+
+#colorlib-main {
+  background: var(--feature-bg);
+}
+
+/* Optional: Add light mode data-theme selector for explicit control */
+[data-theme="light"] body {
+  background: var(--feature-bg);
+  color: var(--feature-text);
+}
+
+[data-theme="light"] #colorlib-main {
+  background: var(--feature-bg);
 }

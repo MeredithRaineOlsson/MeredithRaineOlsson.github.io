@@ -63,10 +63,10 @@ async function setPageTitleFromProfile(url) {
 }
 
 buildContainer(bio, "bio", bioTemplate);
-buildContainer(skills, "skills", skillsTemplate);
 buildContainer(experience, "experience", timelineTemplate);
 buildContainer(education, "education", timelineTemplate);
 buildContainer(adventures, "adventures", adventureTemplate);
+buildContainer(skills, "skills", skillsTemplate);
 buildContainer(footer, "footer", footerTemplate);
 buildContainer(contact, "contact", contactLinksTemplate);
 
